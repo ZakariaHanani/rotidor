@@ -1,0 +1,188 @@
+/* Style the header with a grey background and some padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+.filter{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 0;
+opacity: 0.7; 
+height: 100vh;
+background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(43, 42, 42, 0.315) 10%, rgba(7, 7, 7, 0.027) 88%);
+
+}
+body {
+  background-color: rgb(0, 0, 0) ;
+  height: 30vh;
+}
+.background {   
+    
+        background-image: url("imgrotidor/crew7.jpg");
+        /* Full height */
+        height: 100vh;
+        background-attachment: fixed;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+  }
+  
+  #header {
+    overflow: hidden;
+    background:rgba(253, 253, 253, 0.98) ;
+    padding :5px 10px ;
+    width: 100%;
+    transition: 0.5s;
+    position: fixed;
+    z-index: 99;
+   
+  }
+  #prg{
+    position:absolute;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.98);
+    display: block;
+    overflow: visible;
+    font-family: 'Rubik Dirt', cursive;
+    top: 40%;
+    box-sizing: initial;
+    font-size: 50px;
+    transition: 0.4s;
+   
+
+  }
+  /* Style the header links */
+  #header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 10px;
+    font-family: 'Rubik Dirt', cursive;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    font-family:cursive;
+    border-radius: 5px;
+    
+  } 
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  #logo{
+  max-width: 90px;
+  margin-left: 10px;
+  transition: 0.4s;
+  }
+  #header a.activ {
+    background-color: rgba(0, 0, 0, 0.904);
+    font-family: 'Rubik Dirt', cursive;
+    
+  }
+  /* Change the background color on mouse-over */
+  #header .activ:hover {
+    background: rgba(223, 220, 69, 0.820) ;
+    color: white
+  }
+  
+  /* Float the link section to the right */
+  #header-right {
+    float: right;
+   margin: 25px;
+   margin-top: 20px;
+   transition: 0.4s;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    #header{
+    padding: 25px 10px;
+   }
+   #header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #header-right {
+      float: none;
+    }
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+  }
+  #o2  {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    direction: rtl;
+  }
+  .image img {
+    margin-top: 10vh;
+    max-width: 100% ;
+    border-radius: 6px; 
+  }
+  .container h1{
+    color: rgba(252, 249, 112, 0.863);
+    font-family: 'Rubik Dirt', cursive;
+
+  }
+  .image {
+    flex-basis: 30%
+  }
+  
+  .text {
+    font-size: 30px;
+    padding-left: 20px;
+    color: rgba(253, 253, 253, 0.959);
+    font-family: 'Rubik Dirt', cursive;
+    
+  }
+  #o2 .text {
+    font-size: 25px;
+    padding-left: 21px;
+    color: rgba(255, 255, 255, 0.959);
+    direction: ltr;
+  }
+/*--------------------------------------- gallery grid -----------------------------------------------------------*/
+.gallery button {
+  border: 0 transparent;
+  margin-left: 105PX;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  
+
+}
+.gallery button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Rubik Dirt', cursive;
+}
+.gallery button:hover{
+  background-color: beige;
+}
+/*-----------------------------------------  Footer  --------------------------------------------------------------*/
+
+footer{
+margin-top :30vh;
+font-family: 'Rubik Dirt', cursive;
+background-color: rgb(39, 39, 39);
+}
+.containe{
+  height: 200px;
+}
+.text2{
+ float: left;
+}
+ .mb-4{
+margin-top: 70px;
+ }
+
+
