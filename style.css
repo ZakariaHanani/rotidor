@@ -96,21 +96,8 @@ body {
    margin-top: 20px;
    transition: 0.4s;
   }
+  /*------------------ container------------------------*/
   
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 500px) {
-    #header{
-    padding: 25px 10px;
-   }
-   #header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    #header-right {
-      float: none;
-    }
-  }
   .container {
     display: flex;
     align-items: center;
@@ -118,13 +105,12 @@ body {
   }
   #o2  {
     display: flex;
-    align-items: center;
-    justify-content: center ;
     direction: rtl;
   }
   .image img {
+    width: 270px ;
+    height: 400px;
     margin-top: 10vh;
-    max-width: 100% ;
     border-radius: 6px; 
   }
   .container h1{
@@ -184,5 +170,51 @@ background-color: rgb(39, 39, 39);
  .mb-4{
 margin-top: 70px;
  }
+/*-------------------------------- MEDIA SCREEN ---------------------------*/
+
+  @media screen and (max-width: 300px) {
+    #header{
+    padding: 25px 10px;
+   }
+   #header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #header-right {
+      float: none;
+    }}
+ /*-------------------------------- MEDIA SCREEN ---------------------------*/
 
 
+    /**********************gallerygrid ************************************/
+    @media screen and (max-device-width: 768px){
+
+    #prg{
+      top: 25%;
+      font-size: 45px;
+      color: rgb(255, 255, 255);
+    }
+
+     .background{background-image:url("imgrotidor/crew5.jpg");}
+     .container .image img{
+      width: 150px;
+      height: 260px;
+     }
+     .container .text{
+        font-size: 20px;
+      }
+      .gallerygrid div.gallery img {
+        width: 200px;
+        height: 200px; }
+        .gallerygrid {
+          margin-top: 20px;
+          margin-left: 0px;
+          display: flex;
+          margin-left: 20px;
+          margin-bottom: 5vh;
+          flex-wrap: wrap;
+          justify-content: space-around;
+      }
+  
+  }
