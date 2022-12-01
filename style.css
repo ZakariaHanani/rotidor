@@ -72,7 +72,7 @@ body {
     border-radius: 5px;
     
   } 
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  
   #logo{
   max-width: 90px;
   margin-left: 10px;
@@ -96,7 +96,7 @@ body {
    margin-top: 20px;
    transition: 0.4s;
   }
-  /*------------------ container------------------------*/
+  /*---------------------------------------------- container------------------------------------------------*/
   
   .container {
     display: flex;
@@ -135,7 +135,7 @@ body {
     color: rgba(255, 255, 255, 0.959);
     direction: ltr;
   }
-/*--------------------------------------- gallery grid -----------------------------------------------------------*/
+/*--------------------------------------------- gallery grid --------------------------------------*/
 .gallery button {
   border: 0 transparent;
   margin-left: 105PX;
@@ -154,7 +154,7 @@ body {
 .gallery button:hover{
   background-color: beige;
 }
-/*-----------------------------------------  Footer  --------------------------------------------------------------*/
+/*-----------------------------------------------  Footer  --------------------------------------------------------------*/
 
 footer{
 margin-top :30vh;
@@ -170,7 +170,7 @@ background-color: rgb(39, 39, 39);
  .mb-4{
 margin-top: 70px;
  }
-/*-------------------------------- MEDIA SCREEN ---------------------------*/
+                /*-------------------------------- MEDIA SCREEN ---------------------------*/
 
   @media screen and (max-width: 300px) {
     #header{
@@ -196,7 +196,7 @@ margin-top: 70px;
       color: rgb(255, 255, 255);
     }
 
-     .background{background-image:url("imgrotidor/crew5.jpg");}
+     .background{background-image:url("imgrotidor/crew7.jpg");}
      .container .image img{
       width: 150px;
       height: 260px;
